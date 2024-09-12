@@ -1,0 +1,63 @@
+.Title {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+.img_container img{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    background-color: rgb(245, 55, 86);
+    padding: 50px;
+    transition: 0.3s
+}
+.img_container {
+    display: grid;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: gray  2px 5px 5px 2px;
+    margin: 20px;
+    transition: 0.3s
+}
+   
+.main_container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border-top: none;
+   align-items: center;
+   padding-right: none;
+   justify-content: center; 
+   box-shadow: gray  2px 5px 5px 2px;
+   padding-bottom: 30px;
+   
+}
+
+.img_container:hover {
+    box-shadow: 0 10px 16px 0 rgb(0, 0, 0);
+    font-weight: 500px;
+    transition: 0.3s
+}
+
+.img_container img:hover {
+    width: 250px;
+    height: 250px;
+    transition: 0.3s;
+}
+
+.code { color: rgb(136, 132, 132); margin: 0;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 15px;}
+.Pokemon_Name { font-size: 30px; margin: 0; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  color: rgb(19, 163, 230)}
+.Abilities {  margin: 0;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 13px; }
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
